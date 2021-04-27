@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula68;
+package com.loiane.cursojava.aula70;
 
 public class MinhaThreadRunnable implements Runnable {
 
@@ -8,8 +8,6 @@ public class MinhaThreadRunnable implements Runnable {
 	public MinhaThreadRunnable(String nome, int tempo) {
 		this.nome = nome;
 		this.tempo = tempo;
-//		Thread t1 = new Thread(this);
-//		t1.start();
 	}
 
 	@Override

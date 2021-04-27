@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula68;
+package com.loiane.cursojava.aula69;
 
 public class MinhaThreadRunnable implements Runnable {
 
