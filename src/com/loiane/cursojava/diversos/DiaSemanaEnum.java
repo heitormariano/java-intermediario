@@ -13,4 +13,5 @@ public enum DiaSemanaEnum {
 	public int getValor() {
 		return valor;
 	}
+
 }

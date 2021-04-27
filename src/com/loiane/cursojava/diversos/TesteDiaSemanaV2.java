@@ -6,8 +6,8 @@ public class TesteDiaSemanaV2 {
 		DiaSemanaEnum dia = DiaSemanaEnum.SEGUNDA;
 		DiaSemanaEnum diaSeguinte = DiaSemanaEnum.TERCA;
 
-		System.out.println(dia.toString() + " - " + dia.getValor());
-		System.out.println(diaSeguinte.toString() + " - " + diaSeguinte.getValor());
+		System.out.println(dia.toString() + " -> " + dia.getValor());
+		System.out.println(diaSeguinte.toString() + " -> " + diaSeguinte.getValor());
 	}
 
 }
