@@ -28,7 +28,7 @@ public class ExemploPrintf {
 
 		System.out.println();
 
-		String olaGalera = "olá, Galera!";
+		String olaGalera = "Olá, Galera!";
 		System.out.printf("%20s", olaGalera);
 		System.out.println();
 		System.out.printf("%-20s", olaGalera);
@@ -46,7 +46,8 @@ public class ExemploPrintf {
 		System.out.println();
 		
 		int valor4 = 256878;
-		System.out.printf("%015d", valor4); // número terá 15 dígitos (o que faltar para completar é usado 0)
+		// número terá 15 dígitos (o que faltar será preenchido com 0)
+		System.out.printf("%015d", valor4);
 		System.out.println(); 
 		
 		System.out.printf("%,d", valor4);
