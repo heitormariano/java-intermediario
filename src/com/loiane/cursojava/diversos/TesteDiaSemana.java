@@ -5,11 +5,16 @@ public class TesteDiaSemana {
 	public static void main(String[] args) {
 		System.out.println("Constantes");
 		usarConstantes();
-		
+
 		System.out.println();
-		
+
 		System.out.println("Enum");
 		usarEnum();
+
+		System.out.println();
+		
+		System.out.println("Enum - V2");
+		usarEnumV2();
 	}
 
 	private static void usarConstantes() {
@@ -39,6 +44,15 @@ public class TesteDiaSemana {
 		DiaSemanaEnum domingo = DiaSemanaEnum.DOMINGO;
 
 		DiaSemanaEnum[] arrayDias = { segunda, terca, quarta, quinta, sexta, sabado, domingo };
+
+		for (DiaSemanaEnum dia : arrayDias) {
+			imprimirDiaSemanaEnum(dia);
+		}
+
+	}
+
+	private static void usarEnumV2() {
+		DiaSemanaEnum[] arrayDias = DiaSemanaEnum.values();
 
 		for (DiaSemanaEnum dia : arrayDias) {
 			imprimirDiaSemanaEnum(dia);

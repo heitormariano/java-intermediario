@@ -26,7 +26,7 @@ public class TesteNerd {
 		// criar uma lista a partir dos elementos de um array
 		List<GrauEscolaridade> escolaridades = Arrays.asList(GrauEscolaridade.values());
 
-		System.out.println("Escolaridades da Enum:");
+		System.out.println("Imprimindo lista (elementos do tipo GrauEscolaridade):");
 		for (GrauEscolaridade grau : escolaridades) {
 			System.out.println(grau);
 		}
